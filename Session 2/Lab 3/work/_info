@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Courses/Digital Design workshop/Session 2/Lab 3
+vmux
+!s110 1741615897
+!i10b 1
+!s100 CbZOD`kN44kHWzU30X;Um1
+I;cb>SeXHWGCghZez>ABY33
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741615887
+8D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+FD:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1741615897.000000
+!s107 D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vmux_8_1
+!s110 1741617822
+!i10b 1
+!s100 F`d^9OLD;]Pm1_5[89^mN1
+II724?9Jc<:LEEWV[cA3Oz0
+R1
+R0
+w1741617795
+8D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v
+FD:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1741617822.000000
+!s107 D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v|
+!i113 1
+R3
+R4

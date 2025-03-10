@@ -1,0 +1,50 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v}
+# Loading project lab3 part 2
+# Compile of lab 3 part 2.v failed with 1 errors.
+# Compile of lab 3 part 2.v was successful.
+# Compile of lab 3 part 2.v was successful.
+vsim -gui work.mux_8_1
+# vsim -gui work.mux_8_1 
+# Start time: 16:44:35 on Mar 10,2025
+# Loading work.mux_8_1
+# Loading work.mux
+# ** Warning: (vsim-3017) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(7): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux1 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3015) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(7): [PCDPC] - Port size (1) does not match connection size (2) for port 's1'. The port definition is at: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux1 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3015) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(7): [PCDPC] - Port size (1) does not match connection size (4) for port 's2'. The port definition is at: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux1 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3015) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(7): [PCDPC] - Port size (4) does not match connection size (1) for port 'd'. The port definition is at: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux1 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3722) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(7): [TFMPC] - Missing connection for port 'out'.
+# ** Warning: (vsim-3017) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(8): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux2 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3015) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(8): [PCDPC] - Port size (1) does not match connection size (2) for port 's1'. The port definition is at: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux2 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3015) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(8): [PCDPC] - Port size (1) does not match connection size (4) for port 's2'. The port definition is at: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux2 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3015) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(8): [PCDPC] - Port size (4) does not match connection size (1) for port 'd'. The port definition is at: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_8_1/mux2 File: D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 .v
+# ** Warning: (vsim-3722) D:/Courses/Digital Design workshop/Session 2/Lab 3/lab 3 part 2.v(8): [TFMPC] - Missing connection for port 'out'.
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/mux_8_1/d
+add wave -position end  sim:/mux_8_1/out
+add wave -position end  sim:/mux_8_1/s
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: pc  Hostname: DESKTOP-87KI3KB  ProcessID: 12800
+#           Attempting to use alternate WLF file "./wlft1rjrkt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1rjrkt
+force -freeze {sim:/mux_8_1/d[7]} 1 0
+force -freeze {sim:/mux_8_1/d[6]} 0 0
+force -freeze {sim:/mux_8_1/d[5]} 0 0
+force -freeze {sim:/mux_8_1/d[4]} 0 0
+force -freeze {sim:/mux_8_1/d[3]} 0 0
+force -freeze {sim:/mux_8_1/d[2]} 0 0
+force -freeze {sim:/mux_8_1/d[1]} 0 0
+force -freeze {sim:/mux_8_1/d[0]} 0 0
+force -freeze {sim:/mux_8_1/s[2]} 1 0
+force -freeze {sim:/mux_8_1/s[1]} 1 0
+force -freeze {sim:/mux_8_1/s[0]} 1 0
+run
