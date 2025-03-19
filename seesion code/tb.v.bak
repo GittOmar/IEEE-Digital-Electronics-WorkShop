@@ -1,0 +1,28 @@
+module full_adder_TB;
+    input reg  [wed-1: 0] x1,x2 , 
+    input reg   cin,  // Carry-in bit
+    wire [wed-1 : 0] sum,
+    wire  cout // Carry-out bit
+    full_adder #(8) DUT(input , cin , sum , cout);
+
+endmodule 
+
+
+initial 
+begin
+x1 = 0;
+x2 = 0;
+cin = 0;
+#10;
+x1= 4;
+x2 = 5;
+#5;
+if(out == 10 && cout == 0)
+begin 
+$display("test pass");
+end
+else 
+$dispaly("test fail");
+$stop;
+end 
+endmodule 
