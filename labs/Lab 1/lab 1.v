@@ -1,6 +1,9 @@
 module alu (
-input [3:0] A,B, input enable, input [1:0] opcode,
-output reg [3:0] out , output reg cout  
+input [3:0] A,B,
+input enable, 
+input [1:0] opcode,
+output reg [3:0] out , 
+output reg cout  
 );
 
 always @ (*)
