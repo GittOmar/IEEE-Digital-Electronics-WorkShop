@@ -1,0 +1,10 @@
+{D:/digital/final project/modules/contol  unit/controlUnit.v} {2 {vlog -work work -vopt -stats=none {D:/digital/final project/modules/contol  unit/controlUnit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module controlUnit
+** Warning: D:/digital/final project/modules/contol  unit/controlUnit.v(47): (vlog-2576) [BSOB] - Bit-select into 'ALUOp' is out of bounds.
+** Warning: D:/digital/final project/modules/contol  unit/controlUnit.v(34): (vlog-2576) [BSOB] - Bit-select into 'ALUOp' is out of bounds.
+
+Top level modules:
+	controlUnit
+
+} {} {}}

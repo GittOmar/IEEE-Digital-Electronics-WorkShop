@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/programmes/intelFPGA/18.1
+vALU
+!s110 1750485447
+!i10b 1
+!s100 I=Zb`Y]oO6]o2FId[_Pz`1
+IScRElGY`ehIQGh<7m6oAJ0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/digital/final project/modules/ALU
+w1750485441
+8D:/digital/final project/modules/ALU/alu.v
+FD:/digital/final project/modules/ALU/alu.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1750485447.000000
+!s107 D:/digital/final project/modules/ALU/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/digital/final project/modules/ALU/alu.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@a@l@u
+vProgramCounter
+!s110 1750489807
+!i10b 1
+!s100 K6J]hko34?^`>7O]2;E`E3
+I=bY5DLi==?BWn7LGc5lOW1
+R0
+R1
+w1750489796
+8D:/digital/final project/modules/Program Counter/ProgramCounter.v
+FD:/digital/final project/modules/Program Counter/ProgramCounter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1750489806.000000
+!s107 D:/digital/final project/modules/Program Counter/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/digital/final project/modules/Program Counter/ProgramCounter.v|
+!i113 1
+R3
+R4
+n@program@counter

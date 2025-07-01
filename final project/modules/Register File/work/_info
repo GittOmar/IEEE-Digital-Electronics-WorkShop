@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/digital/final project/modules/Instruction Memory
+vRegFile
+!s110 1750659195
+!i10b 1
+!s100 R5F]^:0oC6R_zSR`^i<B_0
+IU9SQHkXjbKFib6G^>mQCi1
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/digital/final project/modules/Register File
+w1750659182
+8D:/digital/final project/modules/Register File/RegisterFile.v
+FD:/digital/final project/modules/Register File/RegisterFile.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1750659195.000000
+!s107 D:/digital/final project/modules/Register File/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/digital/final project/modules/Register File/RegisterFile.v|
+!i113 1
+o-work work
+tCvgOpt 0
+n@reg@file

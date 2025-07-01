@@ -1,0 +1,66 @@
+{D:/digital/final project/Main file/mux.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/mux.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {D:/digital/final project/Main file/alu.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/alu.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/digital/final project/Main file/instructionMemory.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/instructionMemory.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instructionMemory
+
+Top level modules:
+	instructionMemory
+
+} {} {}} {D:/digital/final project/Main file/sign extender.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/sign extender.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} {D:/digital/final project/Main file/ProgramCounter.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/ProgramCounter.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} {D:/digital/final project/Main file/processor.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/processor.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module RISC_V
+
+Top level modules:
+	RISC_V
+
+} {} {}} {D:/digital/final project/Main file/DataMemo.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/DataMemo.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module DataMemo
+
+Top level modules:
+	DataMemo
+
+} {} {}} {D:/digital/final project/Main file/RegisterFile.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/RegisterFile.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} {D:/digital/final project/Main file/controlUnit.v} {2 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/controlUnit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module controlUnit
+** Warning: D:/digital/final project/Main file/controlUnit.v(47): (vlog-2576) [BSOB] - Bit-select into 'ALUOp' is out of bounds.
+** Warning: D:/digital/final project/Main file/controlUnit.v(34): (vlog-2576) [BSOB] - Bit-select into 'ALUOp' is out of bounds.
+
+Top level modules:
+	controlUnit
+
+} {} {}}

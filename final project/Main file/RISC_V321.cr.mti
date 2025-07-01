@@ -1,0 +1,43 @@
+{D:/digital/final project/Main file/mux.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/mux.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {D:/digital/final project/Main file/alu.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/alu.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/digital/final project/Main file/instructionMemory.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/instructionMemory.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instructionMemory
+
+Top level modules:
+	instructionMemory
+
+} {} {}} {D:/digital/final project/Main file/ProgramCounter.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/ProgramCounter.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} {D:/digital/final project/Main file/RegisterFile.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/RegisterFile.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} {D:/digital/final project/Main file/controlUnit.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/Main file/controlUnit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module controlUnit
+
+Top level modules:
+	controlUnit
+
+} {} {}}

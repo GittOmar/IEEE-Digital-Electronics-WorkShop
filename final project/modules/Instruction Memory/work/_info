@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/digital/final project/modules/Instruction Memory
+vinstructionMemory
+!s110 1750657896
+!i10b 1
+!s100 ]ol2[_ozEW<676@CcmUU[0
+I3Ea:j]>M;7Pk7ZH7DJ]5Q0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1750657890
+8D:\digital\final project\modules\Instruction Memory\instructionMemory.v
+FD:\digital\final project\modules\Instruction Memory\instructionMemory.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1750657896.000000
+!s107 D:\digital\final project\modules\Instruction Memory\instructionMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\digital\final project\modules\Instruction Memory\instructionMemory.v|
+!i113 1
+o-work work
+tCvgOpt 0
+ninstruction@memory

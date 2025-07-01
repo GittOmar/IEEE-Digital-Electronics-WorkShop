@@ -1,0 +1,8 @@
+{D:/digital/final project/modules/Data Memory/DataMemo.v} {1 {vlog -work work -vopt -stats=none {D:/digital/final project/modules/Data Memory/DataMemo.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module DataMemo
+
+Top level modules:
+	DataMemo
+
+} {} {}}

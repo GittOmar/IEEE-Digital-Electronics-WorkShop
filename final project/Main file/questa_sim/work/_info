@@ -1,0 +1,234 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/digital/final project/modules/sign extend
+T_opt
+!s110 1751056393
+VUkmeBj6c9^z8PHMPaJQkC0
+Z1 04 6 4 work RISC_V fast 0
+=1-98e7f4f65965-685f0007-1d4-6d84
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1751056697
+VH^6YQF76R=D2<=ScfkD=J3
+04 3 7 work ALU fast__1 0
+04 11 7 work controlUnit fast__1 0
+04 8 7 work DataMemo fast__1 0
+04 17 7 work instructionMemory fast__1 0
+04 3 7 work mux fast__1 0
+R1
+04 14 4 work ProgramCounter fast 0
+04 7 4 work RegFile fast 0
+04 10 4 work SignExtend fast 0
+=1-98e7f4f65965-685f0139-27b-66b0
+R2
+R3
+n@_opt1
+R4
+vALU
+!s110 1751056366
+!i10b 1
+!s100 C^Yg:jYX=kUj3I:c=J@`;3
+I_UE^9[eeSbRe5bDRWaDS72
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/digital/final project/Main file/questa_sim
+w1750486587
+8D:/digital/final project/Main file/alu.v
+FD:/digital/final project/Main file/alu.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1751056366.000000
+!s107 D:/digital/final project/Main file/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/alu.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@a@l@u
+vcontrolUnit
+Z10 !s110 1751056367
+!i10b 1
+!s100 b9=4DoAW_DSL;IU:ZfFzE0
+INX2<=Ben:f]ZNkL1@fiD_1
+R5
+R6
+w1750943155
+8D:/digital/final project/Main file/controlUnit.v
+FD:/digital/final project/Main file/controlUnit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/digital/final project/Main file/controlUnit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/controlUnit.v|
+!i113 0
+R9
+R3
+ncontrol@unit
+vDataMemo
+R10
+!i10b 1
+!s100 SE`VBcYTmi0O3eRXMW3id0
+IJFWPEYE_UN]A?UeXT^abc1
+R5
+R6
+w1750858185
+8D:/digital/final project/Main file/DataMemo.v
+FD:/digital/final project/Main file/DataMemo.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z11 !s108 1751056367.000000
+!s107 D:/digital/final project/Main file/DataMemo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/DataMemo.v|
+!i113 0
+R9
+R3
+n@data@memo
+vinstructionMemory
+R10
+!i10b 1
+!s100 IFh9;`lSHiJl_`I8@cJ@k0
+Ik^@Xe;9UabR6Sb;BA8LF32
+R5
+R6
+w1750864277
+8D:/digital/final project/Main file/instructionMemory.v
+FD:/digital/final project/Main file/instructionMemory.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/digital/final project/Main file/instructionMemory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/instructionMemory.v|
+!i113 0
+R9
+R3
+ninstruction@memory
+vmux
+R10
+!i10b 1
+!s100 8b2:_S7hz2]g?_R54@olb3
+I9@jiSmMTXPdZ2>c2@O2J^1
+R5
+R6
+w1751055871
+8D:/digital/final project/Main file/mux.v
+FD:/digital/final project/Main file/mux.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/digital/final project/Main file/mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/mux.v|
+!i113 0
+R9
+R3
+vProgramCounter
+R10
+!i10b 1
+!s100 UnNbC]IH9N<_nC3OG^li73
+IGBIP3KKL7dfijo@dm8B7=1
+R5
+R6
+w1751052363
+8D:/digital/final project/Main file/ProgramCounter.v
+FD:/digital/final project/Main file/ProgramCounter.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/digital/final project/Main file/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/ProgramCounter.v|
+!i113 0
+R9
+R3
+n@program@counter
+vRegFile
+R10
+!i10b 1
+!s100 aiLSnF@d0OVVn5[`bdo3P3
+ICE_h@Lz[_jFEc<G5`BWQI3
+R5
+R6
+w1750659529
+8D:/digital/final project/Main file/RegisterFile.v
+FD:/digital/final project/Main file/RegisterFile.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/digital/final project/Main file/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/RegisterFile.v|
+!i113 0
+R9
+R3
+n@reg@file
+vRISC_V
+R10
+!i10b 1
+!s100 ETeY`A5BWdJMSNOXTV1NA2
+I_g6[]Y^Nab1K>0[XNFFoI3
+R5
+R6
+w1751056359
+8D:/digital/final project/Main file/processor.v
+FD:/digital/final project/Main file/processor.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/digital/final project/Main file/processor.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/processor.v|
+!i113 0
+R9
+R3
+n@r@i@s@c_@v
+vSignExtend
+R10
+!i10b 1
+!s100 39Vi_VVRoT[Sf5>G5?a4i1
+I1ED6<eSX159A]`MoK@KgM2
+R5
+R6
+w1751049647
+8D:/digital/final project/Main file/sign extender.v
+FD:/digital/final project/Main file/sign extender.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/digital/final project/Main file/sign extender.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/digital/final project/Main file/sign extender.v|
+!i113 0
+R9
+R3
+n@sign@extend

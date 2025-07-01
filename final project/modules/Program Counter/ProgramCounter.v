@@ -1,0 +1,17 @@
+module ProgramCounter(
+
+input clk , nrst, PCSrc ,load,
+input [31 : 0] immExt,
+wire  [31 : 0] PCNext,  // internal wire
+output reg [31 : 0] PC
+
+);
+
+always@(posedge clk or negedge nrst) begin
+if(!nrst) PC <= 0;
+else if(load) PC <= PCNext ;
+end
+
+assign PCNext = PCSrc ?  PC + immExt : PC + 4 ;
+
+endmodule

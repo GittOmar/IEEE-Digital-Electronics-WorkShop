@@ -1,0 +1,14 @@
+module instructionMemory(
+
+ input [31 : 0] pc,
+ output  [31 : 0] instr
+);
+reg [31 : 0] mem [0 : 63];
+initial  $readmemh("program.txt", mem);
+
+assign instr = mem[pc[31 : 2]];
+
+
+ 
+
+endmodule
