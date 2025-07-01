@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/pc/Downloads
+valu
+!s110 1743287460
+!i10b 1
+!s100 akf880B`o68SdW`XF[XdE1
+IA_D5UNKc@X58aJ>Z?d4>21
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Courses/Digital Design workshop/labs/Lab 1
+w1743285537
+8lab 1.v
+Flab 1.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1743287459.000000
+!s107 lab 1.v|lab 1 tb.v|
+!s90 -reportprogress|300|lab 1 tb.v|lab 1.v|
+!i113 1
+Z3 tCvgOpt 0
+vd_latch
+Z4 !s110 1743287499
+!i10b 1
+!s100 _=T]_797Q42BKYWoWQ5DZ1
+IBQG6KL@UCLaX[Z88kcO^o0
+R0
+R1
+w1743287136
+8D:\Courses\Digital Design workshop\Assigmnet\q2\q2.v
+FD:\Courses\Digital Design workshop\Assigmnet\q2\q2.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z5 !s108 1743287499.000000
+!s107 D:\Courses\Digital Design workshop\Assigmnet\q2\q2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Courses\Digital Design workshop\Assigmnet\q2\q2.v|
+!i113 1
+Z6 o-work work
+R3
+vtb
+R4
+!i10b 1
+!s100 B`ChRji;DD`XKIoTJ4feB1
+I4OhH=Uae81<cQGa7=3P?U1
+R0
+R1
+w1743287386
+8D:/Courses/Digital Design workshop/Assigmnet/q2/tb .v
+FD:/Courses/Digital Design workshop/Assigmnet/q2/tb .v
+L0 1
+R2
+r1
+!s85 0
+31
+R5
+!s107 D:/Courses/Digital Design workshop/Assigmnet/q2/tb .v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Courses/Digital Design workshop/Assigmnet/q2/tb .v|
+!i113 1
+R6
+R3
