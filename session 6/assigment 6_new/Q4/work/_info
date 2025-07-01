@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/assigment 6/Q3
+vfsm
+Z0 !s110 1750076169
+!i10b 1
+!s100 30GHZ[a1]BoegS7PcZhFV2
+IJnC:i6`7kJYa_WV`U:6Ai1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/assigment 6/Q4
+w1750076161
+8D:/assigment 6/Q4/q4.v
+FD:/assigment 6/Q4/q4.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1750076169.000000
+!s107 D:/assigment 6/Q4/q4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/assigment 6/Q4/q4.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vfsm_tb
+R0
+!i10b 1
+!s100 G7amgH_`zYKjBY_c@0L>S2
+I93XQoXBWh1=Q9L1>LZKgM0
+R1
+R2
+w1750075476
+8D:/assigment 6/Q4/tb.v
+FD:/assigment 6/Q4/tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1750076168.000000
+!s107 D:/assigment 6/Q4/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/assigment 6/Q4/tb.v|
+!i113 1
+R4
+R5

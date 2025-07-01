@@ -1,0 +1,41 @@
+module dual_port_ram#(parameter DATA_W = 16, ADDR_W = 4)
+(
+input clk, rst,
+input [ADDR_W-1:0] addr_a, addr_b,
+input [DATA_W-1:0] din_a, din_b,
+input we_a, we_b,
+output reg collision,
+output reg [DATA_W-1:0] dout_a, dout_b
+);
+
+reg [DATA_W-1:0] mem [0:ADDR_W-1];
+integer i;
+always @(posedge clk )
+begin
+    collision <=0;
+        if(rst)
+        begin
+            for(i = 0; i<ADDR_W; i = i+1)  mem[i] <=0;
+            dout_a<=0;
+            dout_b<=0;
+        end
+        
+        if(we_a && we_b) // double access
+        begin 
+            if(addr_a == addr_b) // collision
+            begin
+                collision <=1; 
+                mem[addr_a]<=din_a;
+            end
+            else   // no collision
+            begin
+                    mem[addr_b]<=din_b;
+                    mem[addr_a]<=din_a;
+            end
+        end
+        else if(we_a) mem[addr_a]<=din_a;
+        else if(we_b) mem[addr_b]<=din_b;
+    dout_a<=mem[addr_a]; 
+    dout_b<=mem[addr_b];
+end
+endmodule

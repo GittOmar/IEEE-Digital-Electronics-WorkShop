@@ -1,0 +1,411 @@
+# add wave *
+# run -all
+# time=0 | a= 0 | b= 0 | opcode= 0 | output=  x
+# time=5 | a= 0 | b= 0 | opcode= 0 | output=  0
+# time=10 | a= 0 | b= 1 | opcode= 1 | output=  0
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0
+# time=25 | a= 3 | b= 1 | opcode= 1 | output=  3
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3
+# time=35 | a= 1 | b= 2 | opcode= 1 | output=  2
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2
+# time=55 | a= 1 | b= 0 | opcode= 1 | output=  0
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0
+# time=65 | a= 2 | b= 1 | opcode= 2 | output=  3
+# time=70 failed 2 | 1 
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3
+# time=80 failed 1 | 3 
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3
+# time=90 failed 3 | 2 
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3
+# time=95 | a= 0 | b= 1 | opcode= 0 | output=  1
+# time=100 | a= 1 | b= 1 | opcode= 1 | output=  1
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1
+# time=115 | a= 3 | b= 2 | opcode= 0 | output=  5
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5
+# time=125 | a= 0 | b= 2 | opcode= 1 | output=  0
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0
+# time=135 | a= 2 | b= 3 | opcode= 1 | output=  6
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6
+# time=145 | a= 3 | b= 3 | opcode= 1 | output=  9
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9
+# time=155 | a= 2 | b= 2 | opcode= 1 | output=  4
+# ** Note: $stop    : tb.v(37)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# Break in Module alu_tb at tb.v line 37
+# transcript off
+# End time: 11:12:39 on Jun 15,2025, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:21:30 on Jun 15,2025
+# vlog -reportprogress 300 q3.v tb.v 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 11:21:30 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.alu_tb 
+# Start time: 11:21:30 on Jun 15,2025
+# Loading work.alu_tb
+# Loading work.alu
+# add wave *
+# run -all
+# time=0 | a= 0 | b= 0 | opcode= 0 | output=  x
+# time=5 | a= 0 | b= 0 | opcode= 0 | output=  0
+# time=10 | a= 0 | b= 1 | opcode= 1 | output=  0
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0
+# time=25 | a= 3 | b= 1 | opcode= 1 | output=  3
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3
+# time=35 | a= 1 | b= 2 | opcode= 1 | output=  2
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2
+# time=55 | a= 1 | b= 0 | opcode= 1 | output=  0
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0
+# time=65 | a= 2 | b= 1 | opcode= 2 | output=  3
+# time=70 failed 2 | 1 =  3
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3
+# time=80 failed 1 | 3 =  3
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3
+# time=90 failed 3 | 2 =  3
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3
+# time=95 | a= 0 | b= 1 | opcode= 0 | output=  1
+# time=100 | a= 1 | b= 1 | opcode= 1 | output=  1
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1
+# time=115 | a= 3 | b= 2 | opcode= 0 | output=  5
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5
+# time=125 | a= 0 | b= 2 | opcode= 1 | output=  0
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0
+# time=135 | a= 2 | b= 3 | opcode= 1 | output=  6
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6
+# time=145 | a= 3 | b= 3 | opcode= 1 | output=  9
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9
+# time=155 | a= 2 | b= 2 | opcode= 1 | output=  4
+# ** Note: $stop    : tb.v(37)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# Break in Module alu_tb at tb.v line 37
+# transcript off
+# End time: 11:21:42 on Jun 15,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:25:11 on Jun 15,2025
+# vlog -reportprogress 300 q3.v tb.v 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 11:25:11 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.alu_tb 
+# Start time: 11:25:11 on Jun 15,2025
+# Loading work.alu_tb
+# Loading work.alu
+# add wave *
+# run -all
+# time=0 | a= 0 | b= 0 | opcode= 0 | output=  x
+# time=5 | a= 0 | b= 0 | opcode= 0 | output=  0
+# time=10 | a= 0 | b= 1 | opcode= 1 | output=  0
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0
+# time=25 | a= 3 | b= 1 | opcode= 1 | output=  3
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3
+# time=35 | a= 1 | b= 2 | opcode= 1 | output=  2
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2
+# time=55 | a= 1 | b= 0 | opcode= 1 | output=  0
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0
+# time=65 | a= 2 | b= 1 | opcode= 2 | output=  3
+# <<FIALED>> time=70 | a= 2 | b= 1 | opcode= 2 | output=  3
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3
+# <<FIALED>> time=80 | a= 1 | b= 3 | opcode= 2 | output=  3
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3
+# <<FIALED>> time=90 | a= 3 | b= 2 | opcode= 2 | output=  3
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3
+# time=95 | a= 0 | b= 1 | opcode= 0 | output=  1
+# time=100 | a= 1 | b= 1 | opcode= 1 | output=  1
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1
+# time=115 | a= 3 | b= 2 | opcode= 0 | output=  5
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5
+# time=125 | a= 0 | b= 2 | opcode= 1 | output=  0
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0
+# time=135 | a= 2 | b= 3 | opcode= 1 | output=  6
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6
+# time=145 | a= 3 | b= 3 | opcode= 1 | output=  9
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9
+# time=155 | a= 2 | b= 2 | opcode= 1 | output=  4
+# ** Note: $stop    : tb.v(37)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# Break in Module alu_tb at tb.v line 37
+# transcript off
+# End time: 11:25:23 on Jun 15,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:26:49 on Jun 15,2025
+# vlog -reportprogress 300 q3.v tb.v 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 11:26:49 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.alu_tb 
+# Start time: 11:26:49 on Jun 15,2025
+# Loading work.alu_tb
+# Loading work.alu
+# add wave *
+# run -all
+# time=0 | a= 0 | b= 0 | opcode= 0 | output=  x
+# time=5 | a= 0 | b= 0 | opcode= 0 | output=  0
+# time=10 | a= 0 | b= 1 | opcode= 1 | output=  0
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0
+# time=25 | a= 3 | b= 1 | opcode= 1 | output=  3
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3
+# time=35 | a= 1 | b= 2 | opcode= 1 | output=  2
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2
+# time=55 | a= 1 | b= 0 | opcode= 1 | output=  0
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0
+# time=65 | a= 2 | b= 1 | opcode= 2 | output=  3
+# time=70 | a= 2 | b= 1 | opcode= 2 | output=  3     <<FIALED>> 
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3
+# time=80 | a= 1 | b= 3 | opcode= 2 | output=  3     <<FIALED>> 
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3
+# time=90 | a= 3 | b= 2 | opcode= 2 | output=  3     <<FIALED>> 
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3
+# time=95 | a= 0 | b= 1 | opcode= 0 | output=  1
+# time=100 | a= 1 | b= 1 | opcode= 1 | output=  1
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1
+# time=115 | a= 3 | b= 2 | opcode= 0 | output=  5
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5
+# time=125 | a= 0 | b= 2 | opcode= 1 | output=  0
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0
+# time=135 | a= 2 | b= 3 | opcode= 1 | output=  6
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6
+# time=145 | a= 3 | b= 3 | opcode= 1 | output=  9
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9
+# time=155 | a= 2 | b= 2 | opcode= 1 | output=  4
+# ** Note: $stop    : tb.v(37)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# Break in Module alu_tb at tb.v line 37
+# transcript off
+# End time: 11:26:59 on Jun 15,2025, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:30:03 on Jun 15,2025
+# vlog -reportprogress 300 q3.v tb.v 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 11:30:03 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.alu_tb 
+# Start time: 11:30:03 on Jun 15,2025
+# Loading work.alu_tb
+# Loading work.alu
+# add wave *
+# run -all
+# time=10 | a= 0 | b= 1 | opcode= 1 | output=  0
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0
+# time=25 | a= 3 | b= 1 | opcode= 1 | output=  3
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3
+# time=35 | a= 1 | b= 2 | opcode= 1 | output=  2
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2
+# time=55 | a= 1 | b= 0 | opcode= 1 | output=  0
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0
+# time=65 | a= 2 | b= 1 | opcode= 2 | output=  3
+# time=70 | a= 2 | b= 1 | opcode= 2 | output=  3     <<FIALED>> 
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3
+# time=80 | a= 1 | b= 3 | opcode= 2 | output=  3     <<FIALED>> 
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3
+# time=90 | a= 3 | b= 2 | opcode= 2 | output=  3     <<FIALED>> 
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3
+# time=95 | a= 0 | b= 1 | opcode= 0 | output=  1
+# time=100 | a= 1 | b= 1 | opcode= 1 | output=  1
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1
+# time=115 | a= 3 | b= 2 | opcode= 0 | output=  5
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5
+# time=125 | a= 0 | b= 2 | opcode= 1 | output=  0
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0
+# time=135 | a= 2 | b= 3 | opcode= 1 | output=  6
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6
+# time=145 | a= 3 | b= 3 | opcode= 1 | output=  9
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9
+# time=155 | a= 2 | b= 2 | opcode= 1 | output=  4
+# ** Note: $stop    : tb.v(37)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# Break in Module alu_tb at tb.v line 37
+# transcript off
+# End time: 11:30:12 on Jun 15,2025, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.
+do un.do
+# Cannot open macro file: un.do
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:32:15 on Jun 15,2025
+# vlog -reportprogress 300 q3.v tb.v 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 11:32:15 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.alu_tb 
+# Start time: 11:32:15 on Jun 15,2025
+# Loading work.alu_tb
+# Loading work.alu
+# add wave *
+# run -all
+# time=0 | a= 0 | b= 0 | opcode= 0 | output=  x
+# time=5 | a= 0 | b= 0 | opcode= 0 | output=  0
+# time=10 | a= 0 | b= 1 | opcode= 1 | output=  0
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0     <<FIALED>> 
+# time=20 | a= 3 | b= 1 | opcode= 1 | output=  0
+# time=25 | a= 3 | b= 1 | opcode= 1 | output=  3
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3     <<FIALED>> 
+# time=30 | a= 1 | b= 2 | opcode= 1 | output=  3
+# time=35 | a= 1 | b= 2 | opcode= 1 | output=  2
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2     <<FIALED>> 
+# time=50 | a= 1 | b= 0 | opcode= 1 | output=  2
+# time=55 | a= 1 | b= 0 | opcode= 1 | output=  0
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0     <<FIALED>> 
+# time=60 | a= 2 | b= 1 | opcode= 2 | output=  0
+# time=65 | a= 2 | b= 1 | opcode= 2 | output=  3
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3     <<FIALED>> 
+# time=70 | a= 1 | b= 3 | opcode= 2 | output=  3
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3     <<FIALED>> 
+# time=80 | a= 3 | b= 2 | opcode= 2 | output=  3
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3     <<FIALED>> 
+# time=90 | a= 0 | b= 1 | opcode= 0 | output=  3
+# time=95 | a= 0 | b= 1 | opcode= 0 | output=  1
+# time=100 | a= 1 | b= 1 | opcode= 1 | output=  1
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1     <<FIALED>> 
+# time=110 | a= 3 | b= 2 | opcode= 0 | output=  1
+# time=115 | a= 3 | b= 2 | opcode= 0 | output=  5
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5     <<FIALED>> 
+# time=120 | a= 0 | b= 2 | opcode= 1 | output=  5
+# time=125 | a= 0 | b= 2 | opcode= 1 | output=  0
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0     <<FIALED>> 
+# time=130 | a= 2 | b= 3 | opcode= 1 | output=  0
+# time=135 | a= 2 | b= 3 | opcode= 1 | output=  6
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6     <<FIALED>> 
+# time=140 | a= 3 | b= 3 | opcode= 1 | output=  6
+# time=145 | a= 3 | b= 3 | opcode= 1 | output=  9
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9     <<FIALED>> 
+# time=150 | a= 2 | b= 2 | opcode= 1 | output=  9
+# time=155 | a= 2 | b= 2 | opcode= 1 | output=  4
+# ** Note: $stop    : tb.v(37)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# Break in Module alu_tb at tb.v line 37
+# transcript off
+# End time: 11:32:19 on Jun 15,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:38:29 on Jun 15,2025
+# vlog -reportprogress 300 q3.v tb.v 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 11:38:29 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.alu_tb 
+# Start time: 11:38:29 on Jun 15,2025
+# Loading work.alu_tb
+# Loading work.alu
+# add wave *
+# run -all
+# time=0 | a=0 | b=0 | op=0 | res= x
+# time=5 | a=0 | b=0 | op=0 | res= 0
+# time=20 | a=0 | b=1 | op=1 | res= 0
+# time=30 | MUL FAILED | a=3 | b=1 | res= 0
+# time=30 | a=3 | b=1 | op=1 | res= 0
+# time=40 | MUL FAILED | a=1 | b=2 | res= 0
+# time=40 | a=1 | b=2 | op=1 | res= 0
+# time=50 | MUL FAILED | a=1 | b=2 | res= 0
+# time=60 | a=1 | b=0 | op=1 | res= 0
+# time=70 | OR FAILED  | a=2 | b=1 | res= 0
+# time=70 | a=2 | b=1 | op=2 | res= 0
+# time=80 | OR FAILED  | a=1 | b=3 | res= 0
+# time=80 | a=1 | b=3 | op=2 | res= 0
+# time=90 | OR FAILED  | a=3 | b=2 | res= 0
+# time=90 | a=3 | b=2 | op=2 | res= 0
+# time=100 | ADD FAILED | a=0 | b=1 | res= 0
+# time=100 | a=0 | b=1 | op=0 | res= 0
+# time=110 | MUL FAILED | a=1 | b=1 | res= 0
+# time=110 | a=1 | b=1 | op=1 | res= 0
+# time=120 | ADD FAILED | a=3 | b=2 | res= 0
+# time=120 | a=3 | b=2 | op=0 | res= 0
+# time=130 | a=0 | b=2 | op=1 | res= 0
+# time=140 | MUL FAILED | a=2 | b=3 | res= 0
+# time=140 | a=2 | b=3 | op=1 | res= 0
+# time=150 | MUL FAILED | a=3 | b=3 | res= 0
+# time=150 | a=3 | b=3 | op=1 | res= 0
+# time=160 | MUL FAILED | a=2 | b=2 | res= 0
+# ** Note: $finish    : tb.v(38)
+#    Time: 160 ps  Iteration: 0  Instance: /alu_tb
+# 1
+# Break in Module alu_tb at tb.v line 38
+# transcript off
+# End time: 11:38:43 on Jun 15,2025, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+#  Trace back: Too many nested dialog boxes
+#     while executing
+# "error "Too many nested dialog boxes""
+#     (procedure "tk_dialog" line 32)
+#     invoked from within
+# "tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+#     (object "::.main_pane.source1.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+#     invoked from within
+# "::.main_pane.source1.interior.cs.body.srcobj CheckModification"
+#     (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source1.interior.cs.body.srcobj CheckModification}"
+#     (command bound to event)
+#    <2:D:/programmes/intelFPGA/18.1/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {Too many nested dialog boxes}
+#    <1:D:/programmes/intelFPGA/18.1/modelsim_ase/win32aloem/tk8.5/dialog.tcl:178: ::tk::dialog::error::bgerror {Too many nested dialog boxes}
+# Compile of tb.v failed with 1 errors.
+# Compile of q3.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb.v failed with 1 errors.
+# Compile of q3.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb.v failed with 1 errors.
+# Compile of q3.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb.v failed with 1 errors.
+# Compile of q3.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb.v was successful.
+# Compile of q3.v was successful.
+# 2 compiles, 0 failed with no errors.

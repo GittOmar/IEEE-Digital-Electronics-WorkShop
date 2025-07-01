@@ -1,0 +1,15 @@
+{D:/assigment 6/q1/tb.v} {1 {vlog -work work -stats=none {D:\assigment 6\q1\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dual_port_ram_tb
+
+Top level modules:
+	dual_port_ram_tb
+
+} {} {}} {D:/assigment 6/q1/q1.v} {1 {vlog -work work -stats=none {D:\assigment 6\q1\q1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dual_port_ram
+
+Top level modules:
+	dual_port_ram
+
+} {} {}}

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jun 15 14:12:22 2025
+# Process ID: 25000
+# Current directory: D:/assigment 6/Q3/ans/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log alu.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source alu.tcl -notrace
+# Log file: D:/assigment 6/Q3/ans/project_1/project_1.runs/impl_1/alu.vdi
+# Journal file: D:/assigment 6/Q3/ans/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source alu.tcl -notrace

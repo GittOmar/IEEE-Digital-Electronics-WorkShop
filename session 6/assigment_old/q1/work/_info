@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/here
+vdual_port_ram
+Z0 !s110 1747020686
+!i10b 1
+!s100 ]^C2RkJRzJ?obg__AR39i2
+IVf`YGiOSgSHBNml8Gl6iU3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Courses/Digital Design workshop/session 6/assigment/q1
+w1747019989
+8ram.v
+Fram.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1747020685.000000
+Z5 !s107 tb.v|ram.v|
+Z6 !s90 -reportprogress|300|ram.v|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vdual_port_ram_tb
+R0
+!i10b 1
+!s100 0AC_cm:A`fT5^eez2SIln0
+I]GZCO9<hH[BLm`9FEgj4M2
+R1
+R2
+w1747020675
+Z8 8tb.v
+Z9 Ftb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb
+!s110 1747020604
+!i10b 1
+!s100 J?zmOGmc:?B[DGEh@_9HH2
+I[a`:lNF5anfUnn5C?dko=3
+R1
+R2
+w1747020590
+R8
+R9
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1747020604.000000
+R5
+R6
+!i113 1
+R7
+vtb_dual_port_ram
+!s110 1747020219
+!i10b 1
+!s100 RjC`ZWmjlPR[@VLPoBFUK0
+IGcIZM0Iz8ODd^?U1HJZk01
+R1
+R2
+w1747020208
+R8
+R9
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1747020219.000000
+R5
+R6
+!i113 1
+R7

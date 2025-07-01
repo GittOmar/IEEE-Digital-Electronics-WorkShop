@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Courses/Digital Design workshop/session 6/assigment/q2
+vdual_port_ram
+!s110 1749830263
+!i10b 1
+!s100 5YMP]ioGU4]kC984>F0VT3
+I?f_be:K<FS:LO4`@BEJN>0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/assigment 6/q1
+w1749830218
+Z2 8tb.v
+Z3 Ftb.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1749830263.000000
+!s107 tb.v|q1.v|
+Z5 !s90 -reportprogress|300|q1.v|tb.v|
+!i113 1
+Z6 tCvgOpt 0
+vdual_port_ram_tb
+!s110 1749830173
+!i10b 1
+!s100 700@V:I;_>9c5m`G3SRnK2
+I@kXEX4WK=gYUaDamlh_3<3
+R0
+R1
+w1749829557
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1749830173.000000
+!s107 tb.v|q1.v|
+R5
+!i113 1
+R6
