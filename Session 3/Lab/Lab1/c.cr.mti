@@ -1,0 +1,8 @@
+{D:/Courses/Digital Design workshop/Session last/assigmentss/q1/q1.v} {1 {vlog -work work -stats=none {D:/Courses/Digital Design workshop/Session last/assigmentss/q1/q1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ic
+
+Top level modules:
+	ic
+
+} {} {}}
